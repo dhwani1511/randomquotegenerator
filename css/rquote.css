@@ -55,13 +55,15 @@ body{
       cursor: pointer;
       border:none;
       text-decoration: none; 
+	    user-select:none;
       
 
     }
     .button:hover{
     	box-shadow: 2px 2px 10px grey;
     	text-shadow: 1px 1px 20px white;
-    	transition-duration: 10ms
+    	transition-duration: 10ms;
+	    user-select:none;
     }
     .tweet:hover{
     	background-color: 
@@ -104,6 +106,8 @@ body{
     	}
     	.button{
     		padding: 5px 10px;
+			    user-select:none;
+
     	}
     	.controls{
     		padding: 10px 20px ;
