@@ -6,6 +6,16 @@ html{
 	margin:0;
 	padding:0;
 }
+::selection {
+  background: none;
+}
+::-moz-selection {
+  background: none;
+}
+::-webkit-selection {
+  background: none;
+}
+
 body{
 	background-image: url(https://source.unsplash.com/PM_VwL2ypes/1600x900
 );
